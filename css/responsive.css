@@ -1,0 +1,30 @@
+@media (max-width: 1049px) {
+        .tbilisi-img {
+            max-width: 100%;
+            height: auto;
+        }
+}
+
+@media (max-width: 1039px){
+    .div-head {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1176px){
+    .img1 {
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+
+@media (max-width: 1200px){
+    .cities-div {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media

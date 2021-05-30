@@ -1,0 +1,190 @@
+.tbilisi-img {
+    width: 100%;
+    height: auto; 
+   position: absolute;
+ 
+}
+
+.geo {
+    font-size: 30px;
+    color: red;
+}
+
+.tbilisi-title {
+    font-size: 90px;
+}
+.cog {
+    font-size: 20px;
+}
+
+.flag {
+    z-index: 90;
+    max-width: 60px;
+    margin-left: 100px;
+} 
+.menu-bar {
+    position: relative;
+    z-index: 910;
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    /* justify-content: space-around; */
+    
+}
+
+.burger {
+    max-width: 50px;
+    margin-left: 200px;
+    margin-left: 800px;
+    background-color: black;
+}
+.title-div {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    ;
+}
+.em{
+    background-color: orange;
+}
+
+.GS {
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+
+
+.title {
+    font-size: 10px;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    padding-left: 18px;
+    word-spacing: 2px;
+
+
+}
+.geo-title {
+    margin-left: 100px;
+    color: #FFFFFF;
+    width: 100px;
+
+}
+.geo-title::first-line{
+    font-size: 40px;
+}
+
+
+.img1 {
+    max-width: 1176px;
+    height: auto;
+    margin-top: 719px;
+    margin-left: 103px;
+    opacity: 0.9;
+}
+.info-div {
+    margin-left: 103px;
+    margin-top: 71px;
+    background-color: #F7F7F7;
+
+}
+.aoc {
+    padding-bottom: 9px;
+    letter-spacing: 2px;
+    color: #CC9B55;
+    font-family: Poppins;
+    font-size: 10px;
+}
+
+.title-info {
+    font-size: 25px;
+    padding-bottom: 39px;
+    font-family: Poppins;
+}
+
+.lorem-info{
+    font-size: 14px;
+    color: #7A797E;
+    line-height: 20px;
+}
+
+.cities-div {
+    margin-top: 21px;
+    margin-left: 101px;
+    background-color: #F7F7F7;
+    max-width: 1200;
+    height: 150px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.city-section {
+    max-width: 1584px;
+}
+
+.city {
+    background-color: #ffffff;
+    max-width: 580px;
+    display: flex;
+}
+
+.lorem-p {
+    line-height: 20px;
+    font-size: 15px;
+    color: #b0b0b0;
+}
+
+
+.city-img {
+    max-width: 200px;
+    height: auto;
+}
+
+#img4, #img3, #img1, #img2{
+    padding-top: 25px;
+    padding-right: 25px;
+    
+}
+/* 
+.lorem-title {
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 26px;
+}
+
+.lorem-p{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+ */
+
+ .lp::first-line{
+     font-size: 26px;
+ }
+ 
+.lp {
+    padding-left: 40px;
+
+}
+
+.view-more {
+    width: 200px;
+    height: 50px;
+    background-color: #CC9B55;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+
+
+
