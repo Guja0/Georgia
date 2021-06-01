@@ -1,8 +1,70 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+ /* Burger icon styles */
+.toggle-menu {
+    color: #ffffff;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  padding: 2px 2px 2px 3px;
+    cursor: pointer;
+}
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+    transition: transform 0.2s ease-out;
+}
+.toggle .line1 {
+    transform: scale(0.9) rotate(-45deg) translate(-6px, 4px);
+}
+.toggle .line2 {
+    display: none;
+}
+.toggle .line3 {
+    transform: scale(0.9) rotate(45deg) translate(-6px, -4px);
+}
+
 .tbilisi-img {
     width: 100%;
     height: auto; 
    position: absolute;
  
+}
+.nav-bar {
+    z-index: 9999;
+    position: absolute;
+    background-color: #122;
+    top: 0;
+    right: 100%;
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.toggle {
+    left: 0;
+}
+/* listebis gastilva */
+.nav-list-item {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 22px;
 }
 
 .geo {
@@ -23,26 +85,31 @@
     margin-left: 100px;
 } 
 .menu-bar {
-    position: relative;
+    position: absolute;
     z-index: 910;
-    max-width: 100%;
+    width: 100%;
     background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: fixed;
     /* justify-content: space-around; */
     
 }
-
+/* 
 .burger {
     max-width: 50px;
     margin-left: 200px;
     margin-left: 800px;
     background-color: black;
-}
+} */
 .title-div {
     width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-left: 0px;
     ;
 }
@@ -68,7 +135,7 @@
 
 }
 .geo-title {
-    margin-left: 100px;
+    margin-left: 50px;
     color: #FFFFFF;
     width: 100px;
 
@@ -91,12 +158,13 @@
     background-color: #F7F7F7;
 
 }
-.aoc {
+.aoc, .id-t {
     padding-bottom: 9px;
     letter-spacing: 2px;
     color: #CC9B55;
     font-family: Poppins;
     font-size: 10px;
+
 }
 
 .title-info {
@@ -117,6 +185,8 @@
     background-color: #F7F7F7;
     max-width: 1200;
     height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -133,6 +203,8 @@
 .city {
     background-color: #ffffff;
     max-width: 580px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -185,6 +257,45 @@
     color: #FFFFFF;
 }
 
+.info-div2 {
+   max-width:  1176px;
+    height: auto;
+    margin-top: 400px;
+    margin-left: 103px;
+  
+}
 
+.id-t, .id-p {
+    padding-left: 840px;
+}
 
+.id-p {
+    font-size: 30px;
+}
+
+.div1{
+    margin-left: 101px;
+}
+
+.div-img1{
+    width: 600px;
+    height: 150px;
+    
+}
+
+.div-img2 {
+    width: 500px;
+    height: 150px;
+    padding-left: 25px;
+}
+.div-img3 {
+    padding-top: 25px;
+    width: 500px;
+    height: 200px;
+}
+.div-img4 {
+    padding: 25px 25px;
+    width: 600px;
+    height: 200px;
+}
 

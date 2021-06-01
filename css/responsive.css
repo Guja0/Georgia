@@ -4,6 +4,27 @@
             height: auto;
         }
 }
+@media (max-width: 1000px){
+        .img1{
+            margin-top: 600px;
+            }
+ }
+
+ @media (max-width: 850px){
+        .img1 {
+            margin-top: 500px;
+        }
+    }
+ 
+
+ @media(max-width: 750px){
+     .img1 {
+         margin-top: 450px;
+     }
+ }
+
+    
+
 
 @media (max-width: 1039px){
     .div-head {
@@ -12,19 +33,19 @@
     }
 }
 
-@media (max-width: 1176px){
+@media (max-width: 1250px){
     .img1 {
+        margin-left: 0px;
         max-width: 100%;
         height: auto;
         
     }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 100%){
     .cities-div {
-        max-width: 100%;
+        max-width: 1000px;
         height: auto;
     }
 }
-
-@media
+ 
