@@ -564,7 +564,7 @@ font-family: 'EB Garamond', serif;
 	height: 100%;
 	float: right;
 	width: 45%;
-	/* display: inline-block; */
+	display: inline-block;
 }
 
 #container3 img {width: 100%;height: 100%;}
@@ -614,7 +614,12 @@ font-family: 'EB Garamond', serif;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.sign {
+    color: #000;
+}
+
 .sm-text{
+    color: #000;
     width: 150px;
     height: 40px;
     padding-top: 15px;
