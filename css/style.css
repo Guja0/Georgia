@@ -179,165 +179,6 @@
     line-height: 20px;
 }
 
-.cities-div {
-    margin-top: 21px;
-    margin-left: 101px;
-    background-color: #F7F7F7;
-    max-width: 1200;
-    height: 150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-
-.city-section {
-    max-width: 1584px;
-}
-
-.city {
-     background-color: #ffffff;
-    max-width: 580px; 
-     
-  
-}
-
-.lorem-p {
-    line-height: 20px;
-    font-size: 15px;
-    color: #b0b0b0;
-}
-
-
-.city-img {
-    max-width: 200px;
-    height: auto;
-}
-
-#img4, #img3, #img1, #img2{
-    padding-top: 25px;
-    padding-right: 25px;
-    
-}
-/* 
-.lorem-title {
-    padding-top: 40px;
-    padding-left: 40px;
-    font-size: 26px;
-}
-
-.lorem-p{
-    padding-left: 40px;
-    padding-top: 10px;
-}
- */
-
- .lp::first-line{
-     font-size: 26px;
- }
- 
-.lp {
-    padding-left: 40px;
-
-}
-
-.view-more {
-    width: 200px;
-    height: 50px;
-    background-color: #CC9B55;
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 20px;
-    color: #FFFFFF;
-}
-
-
-/* .view-more {
-  position: relative;
-  font-size: 5rem;
-} */
-
-
-
-/* 
-
-@media (orientation: landscape) {
-  body {
-    grid-auto-flow: column;
-  }
-} */
-
-
-
-.info-div2 {
-   max-width:  300px;
-    height: auto;
-    margin-top: 400px;
-    margin-left: 800px;
-  
-}
-
-.id-p {
-    font-size: 30px;
-   
-}
-
-.div1{
-    margin-left: 101px;
-    margin-top: 200px;
-    /* display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-   
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; */
-}
-
-.div-img1{
-    position: relative;
-    width: 500px;
-    height: 150px;
-   
-    /* display: inline-block; */
-    
-    
-}
-
-.div-img2 {
-    width: 500px;
-    height: 150px;
-    padding-left: 25px;
-    
-}
-.div-img3 {
-    padding-top: 25px;
-    width: 500px;
-    height: 200px;
-}
-.div-img4 {
-    padding: 25px 25px;
-    width: 600px;
-    height: 200px;
-}
-
-.stars {
- height: 20px;
- width: 100px;
- padding-left: 50px;
-}
-
-.frank {
- position: absolute;
- padding-left: 200px;
- margin-bottom: 100px;
- /* background-color: black; */
-}
-
 
 
 
@@ -629,10 +470,10 @@ font-family: 'EB Garamond', serif;
     background-color: #ab772e;
     font-size: 20px;
 }
-
+/* 
 .container-footer{
-    margin-top: 3200px;
-}
+    /* margin-top: 3200px; 
+} */
 
 .site-footer
 {
