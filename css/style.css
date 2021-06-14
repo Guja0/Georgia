@@ -342,8 +342,8 @@
 
 
 
-.container  {
-    margin-top: 2000px;
+.container-b  {
+    margin-top: 3200px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -357,7 +357,7 @@
     box-shadow: 0 0 20px 8px #d0d0d0;
   }
   
-  .content {
+  .content-b {
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
@@ -404,11 +404,11 @@
     transition: 1s;
   }
   
-  .container:hover .flap::after {
+  .container-b:hover .flap::after {
     transform: translatex(300px);
   }
   
-  .container:hover .flap::before{
+  .container-b:hover .flap::before{
     transform: translatex(-300px);
   }
 
@@ -630,7 +630,7 @@ font-family: 'EB Garamond', serif;
     font-size: 20px;
 }
 
-.container{
+.container-footer{
     margin-top: 3200px;
 }
 
