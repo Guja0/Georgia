@@ -232,3 +232,15 @@
         margin-top: 1000px;
     }
 }
+
+@media(max-width: 499px){
+    .container3{
+        width: 100px;
+    }
+}
+
+@media(max-width: 568px){
+    .container-b{
+        width: 400px;
+    }
+}
