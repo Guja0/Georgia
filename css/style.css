@@ -615,6 +615,18 @@ font-family: 'EB Garamond', serif;
   font-size:14px
 }
 
+.ajara-img{
+    background-position: center;
+}
+
+.product-image{ 
+    float: right;
+
+}
+
+.sm-text{
+    position: relative;
+}
 
 .social-icons a.linkedin:hover
 {
